@@ -1,0 +1,16 @@
+name: project_ml4h
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - keras
+  - jupyter
+  - matplotlib
+  - python==3.7.4
+  - tensorflow
+  - scikit-learn
+  - scipy
+prefix: /usr/local/anaconda3/envs/project_ml4h
+

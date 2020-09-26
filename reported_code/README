@@ -1,0 +1,11 @@
+Data path: ../data
+
+Conda environment: environment.yml
+
+Creating rotation dataset: rotation.py
+
+Running a grid search: GridSearch.py
+
+Training the model: u_nn.py
+
+Outputting predictions: prediction.py

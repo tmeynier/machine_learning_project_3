@@ -1,0 +1,223 @@
+Sender: LSF System <lsfadmin@lo-s4-073>
+Subject: Job 6306703: <python preditction5L.py> in cluster <leonhard> Done
+
+Job <python preditction5L.py> was submitted from host <lo-login-02> by user <mchevalley> in cluster <leonhard> at Wed Apr 29 22:25:36 2020
+Job was executed on host(s) <8*lo-s4-073>, in queue <gpu.4h>, as user <mchevalley> in cluster <leonhard> at Wed Apr 29 22:25:54 2020
+</cluster/home/mchevalley> was used as the home directory.
+</cluster/home/mchevalley/mlproject3/u_neural_net> was used as the working directory.
+Started at Wed Apr 29 22:25:54 2020
+Terminated at Wed Apr 29 22:26:42 2020
+Results reported at Wed Apr 29 22:26:42 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python preditction5L.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39.54 sec.
+    Max Memory :                                 4836 MB
+    Average Memory :                             3598.50 MB
+    Total Requested Memory :                     64768.00 MB
+    Delta Memory :                               59932.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                64
+    Run time :                                   73 sec.
+    Turnaround time :                            66 sec.
+
+The output (if any) follows:
+
+2020-04-29 22:25:58.682189: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/extras/CUPTI/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-04-29 22:25:58.682330: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/extras/CUPTI/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-04-29 22:25:58.682345: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-29 22:26:03.947666: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-04-29 22:26:04.009753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:1b:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2020-04-29 22:26:04.012462: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-29 22:26:04.035155: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-29 22:26:04.049568: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-29 22:26:04.055752: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-29 22:26:04.080776: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-29 22:26:04.088168: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-29 22:26:04.112055: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-29 22:26:04.116188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-04-29 22:26:04.116958: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-04-29 22:26:04.126894: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600000000 Hz
+2020-04-29 22:26:04.127896: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x44bc9d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-29 22:26:04.127930: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-04-29 22:26:04.308400: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4522aa0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-04-29 22:26:04.308465: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2020-04-29 22:26:04.311941: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:1b:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2020-04-29 22:26:04.312026: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-29 22:26:04.312056: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-29 22:26:04.312081: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-29 22:26:04.312120: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-29 22:26:04.312149: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-29 22:26:04.312174: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-29 22:26:04.312199: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-29 22:26:04.317454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-04-29 22:26:04.318667: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-29 22:26:04.321426: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-29 22:26:04.321443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-04-29 22:26:04.321452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-04-29 22:26:04.325902: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10284 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:1b:00.0, compute capability: 7.5)
+2020-04-29 22:26:10.911894: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-29 22:26:12.856067: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-04-29 22:26:13.127156: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+Using TensorFlow backend.
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            (None, 256, 256, 1)  0                                            
+__________________________________________________________________________________________________
+conv2d_1 (Conv2D)               (None, 256, 256, 64) 640         input_1[0][0]                    
+__________________________________________________________________________________________________
+leaky_re_lu_1 (LeakyReLU)       (None, 256, 256, 64) 0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+conv2d_2 (Conv2D)               (None, 256, 256, 64) 36928       leaky_re_lu_1[0][0]              
+__________________________________________________________________________________________________
+leaky_re_lu_2 (LeakyReLU)       (None, 256, 256, 64) 0           conv2d_2[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_1 (MaxPooling2D)  (None, 128, 128, 64) 0           leaky_re_lu_2[0][0]              
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 128, 128, 64) 0           max_pooling2d_1[0][0]            
+__________________________________________________________________________________________________
+conv2d_3 (Conv2D)               (None, 128, 128, 128 73856       dropout_1[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_3 (LeakyReLU)       (None, 128, 128, 128 0           conv2d_3[0][0]                   
+__________________________________________________________________________________________________
+conv2d_4 (Conv2D)               (None, 128, 128, 128 147584      leaky_re_lu_3[0][0]              
+__________________________________________________________________________________________________
+leaky_re_lu_4 (LeakyReLU)       (None, 128, 128, 128 0           conv2d_4[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_2 (MaxPooling2D)  (None, 64, 64, 128)  0           leaky_re_lu_4[0][0]              
+__________________________________________________________________________________________________
+dropout_2 (Dropout)             (None, 64, 64, 128)  0           max_pooling2d_2[0][0]            
+__________________________________________________________________________________________________
+conv2d_5 (Conv2D)               (None, 64, 64, 256)  295168      dropout_2[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_5 (LeakyReLU)       (None, 64, 64, 256)  0           conv2d_5[0][0]                   
+__________________________________________________________________________________________________
+conv2d_6 (Conv2D)               (None, 64, 64, 256)  590080      leaky_re_lu_5[0][0]              
+__________________________________________________________________________________________________
+leaky_re_lu_6 (LeakyReLU)       (None, 64, 64, 256)  0           conv2d_6[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_3 (MaxPooling2D)  (None, 32, 32, 256)  0           leaky_re_lu_6[0][0]              
+__________________________________________________________________________________________________
+dropout_3 (Dropout)             (None, 32, 32, 256)  0           max_pooling2d_3[0][0]            
+__________________________________________________________________________________________________
+conv2d_7 (Conv2D)               (None, 32, 32, 512)  1180160     dropout_3[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_7 (LeakyReLU)       (None, 32, 32, 512)  0           conv2d_7[0][0]                   
+__________________________________________________________________________________________________
+conv2d_8 (Conv2D)               (None, 32, 32, 512)  2359808     leaky_re_lu_7[0][0]              
+__________________________________________________________________________________________________
+leaky_re_lu_8 (LeakyReLU)       (None, 32, 32, 512)  0           conv2d_8[0][0]                   
+__________________________________________________________________________________________________
+max_pooling2d_4 (MaxPooling2D)  (None, 16, 16, 512)  0           leaky_re_lu_8[0][0]              
+__________________________________________________________________________________________________
+dropout_4 (Dropout)             (None, 16, 16, 512)  0           max_pooling2d_4[0][0]            
+__________________________________________________________________________________________________
+conv2d_9 (Conv2D)               (None, 16, 16, 1024) 4719616     dropout_4[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_9 (LeakyReLU)       (None, 16, 16, 1024) 0           conv2d_9[0][0]                   
+__________________________________________________________________________________________________
+conv2d_10 (Conv2D)              (None, 16, 16, 1024) 9438208     leaky_re_lu_9[0][0]              
+__________________________________________________________________________________________________
+leaky_re_lu_10 (LeakyReLU)      (None, 16, 16, 1024) 0           conv2d_10[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_1 (Conv2DTrans (None, 32, 32, 512)  4719104     leaky_re_lu_10[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_11 (LeakyReLU)      (None, 32, 32, 512)  0           conv2d_transpose_1[0][0]         
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 32, 32, 1024) 0           leaky_re_lu_11[0][0]             
+                                                                 leaky_re_lu_8[0][0]              
+__________________________________________________________________________________________________
+dropout_5 (Dropout)             (None, 32, 32, 1024) 0           concatenate_1[0][0]              
+__________________________________________________________________________________________________
+conv2d_11 (Conv2D)              (None, 32, 32, 512)  4719104     dropout_5[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_12 (LeakyReLU)      (None, 32, 32, 512)  0           conv2d_11[0][0]                  
+__________________________________________________________________________________________________
+conv2d_12 (Conv2D)              (None, 32, 32, 512)  2359808     leaky_re_lu_12[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_13 (LeakyReLU)      (None, 32, 32, 512)  0           conv2d_12[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_2 (Conv2DTrans (None, 64, 64, 256)  1179904     leaky_re_lu_13[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_14 (LeakyReLU)      (None, 64, 64, 256)  0           conv2d_transpose_2[0][0]         
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 64, 64, 512)  0           leaky_re_lu_14[0][0]             
+                                                                 leaky_re_lu_6[0][0]              
+__________________________________________________________________________________________________
+dropout_6 (Dropout)             (None, 64, 64, 512)  0           concatenate_2[0][0]              
+__________________________________________________________________________________________________
+conv2d_13 (Conv2D)              (None, 64, 64, 256)  1179904     dropout_6[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_15 (LeakyReLU)      (None, 64, 64, 256)  0           conv2d_13[0][0]                  
+__________________________________________________________________________________________________
+conv2d_14 (Conv2D)              (None, 64, 64, 256)  590080      leaky_re_lu_15[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_16 (LeakyReLU)      (None, 64, 64, 256)  0           conv2d_14[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_3 (Conv2DTrans (None, 128, 128, 128 295040      leaky_re_lu_16[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_17 (LeakyReLU)      (None, 128, 128, 128 0           conv2d_transpose_3[0][0]         
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 128, 128, 256 0           leaky_re_lu_17[0][0]             
+                                                                 leaky_re_lu_4[0][0]              
+__________________________________________________________________________________________________
+dropout_7 (Dropout)             (None, 128, 128, 256 0           concatenate_3[0][0]              
+__________________________________________________________________________________________________
+conv2d_15 (Conv2D)              (None, 128, 128, 128 295040      dropout_7[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_18 (LeakyReLU)      (None, 128, 128, 128 0           conv2d_15[0][0]                  
+__________________________________________________________________________________________________
+conv2d_16 (Conv2D)              (None, 128, 128, 128 147584      leaky_re_lu_18[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_19 (LeakyReLU)      (None, 128, 128, 128 0           conv2d_16[0][0]                  
+__________________________________________________________________________________________________
+conv2d_transpose_4 (Conv2DTrans (None, 256, 256, 64) 73792       leaky_re_lu_19[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_20 (LeakyReLU)      (None, 256, 256, 64) 0           conv2d_transpose_4[0][0]         
+__________________________________________________________________________________________________
+concatenate_4 (Concatenate)     (None, 256, 256, 128 0           leaky_re_lu_20[0][0]             
+                                                                 leaky_re_lu_2[0][0]              
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 256, 256, 128 0           concatenate_4[0][0]              
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 256, 256, 128 0           dropout_8[0][0]                  
+__________________________________________________________________________________________________
+conv2d_17 (Conv2D)              (None, 256, 256, 64) 73792       dropout_9[0][0]                  
+__________________________________________________________________________________________________
+leaky_re_lu_21 (LeakyReLU)      (None, 256, 256, 64) 0           conv2d_17[0][0]                  
+__________________________________________________________________________________________________
+conv2d_18 (Conv2D)              (None, 256, 256, 64) 36928       leaky_re_lu_21[0][0]             
+__________________________________________________________________________________________________
+leaky_re_lu_22 (LeakyReLU)      (None, 256, 256, 64) 0           conv2d_18[0][0]                  
+__________________________________________________________________________________________________
+conv2d_19 (Conv2D)              (None, 256, 256, 3)  195         leaky_re_lu_22[0][0]             
+==================================================================================================
+Total params: 34,512,323
+Trainable params: 34,512,323
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Scores for the unrotated data : 
+overall_precision : 0.9489361572265625 
+per_class_precision : 0.5844628717590986 
+IoU: 0.524693520088844 
+Scores for the rotated data  : 
+overall_precision : 0.9340792410714286 
+per_class_precision : 0.45429334531688287 
+IoU: 0.40907194594741664 
